@@ -1,1 +1,1 @@
-# IoTrain_Lab.github.io
+# IoTrainLab.github.io
