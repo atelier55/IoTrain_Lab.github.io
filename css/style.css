@@ -1,0 +1,108 @@
+.big {
+	font-size : 290%;
+	font-family: 'Arsenal', cursive;
+	font-weight : bold;
+	text-align : center;
+	color : #123;
+}
+
+.copyright p{
+	font-size : 80%;
+	font-family : 'Arsenal', sans-serif;
+	text-align : center;
+	margin : 0% 0% 25% 25%;
+	width: 50%;
+}
+
+
+p{
+	font-size : 80%;
+	color : #ffffff;
+	text-align : center;
+}
+
+span {
+   display: inline-block;
+}
+
+#menu {
+	list-style: none;
+	display: flex;
+}
+
+body{
+	color: none;
+	background-image:url("../img/back.jpg");
+}
+
+
+
+
+#menu li {
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 0%; 
+	transition: all 0ms 200ms ease;
+	
+}
+
+#menu li a {
+	text-decoration: none;
+	font-size: 150%; 
+	color: #000000;
+	background-color: none;
+	display: flex;
+	text-align: center;
+	height:30px;
+	width:0% 
+	font-family: 'Arsenal', sans-serif;
+	text-decoration: none;
+    	transition: 0.5s;
+	position: none;
+}
+
+#menu li a:hover {
+	color: #ff0000;
+}
+
+
+
+.top p {
+	color: #123;
+	font-weight : 500;
+	text-align: center;
+	font-size: 350%;
+	margin : 0% 0% 30% 30%;
+	width: 40%;
+}
+
+.pirka h1{
+	color: #06c;
+	text-align: center;
+	font-size: 250%;
+	font-family: 'Comfortaa', sans-serif;
+	margin : 0% 0% 30% 30%;
+	width: 40%;
+}
+
+.main {
+	color: #ff8800;
+	margin : 0% 0% 25% 25%;
+	width: 50%;
+}
+
+subtitle{
+	font-size: 150%; 
+	text-decoration: none;
+	color: #000000;
+}
+
+footer{
+	font-size: 80%; 
+	color: #ffffff;
+	background-color: #330000;
+
+	
+}
+
