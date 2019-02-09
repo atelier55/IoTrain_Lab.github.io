@@ -94,6 +94,7 @@ body{
 
 subtitle{
 	font-size: 150%; 
+	font-style:italic;
 	text-decoration: none;
 	color: #000000;
 }
