@@ -16,9 +16,25 @@
 
 
 p{
-	font-size : 80%;
+	position: center;
+	font-size : 120%;
 	color : #ffffff;
-	text-align : center;
+	text-decoration: none;
+	font-size: 150%; 
+	color: #000000;
+	background-color: yellow;
+	display: flex;
+	text-align: end;
+	height:30px;
+	width:0% 
+	text-decoration: none;
+    	transition: 1s;
+	
+	text-shadow: none;
+}
+
+p:hover {
+	color: #ff0000;
 }
 
 span {
@@ -48,7 +64,7 @@ body{
 	
 }
 
-#menu li a {
+.li a {
 	text-decoration: none;
 	font-size: 150%; 
 	color: #000000;
@@ -62,7 +78,7 @@ body{
 	position: none;
 }
 
-#menu li a:hover {
+.li a:hover {
 	color: #ff0000;
 }
 
@@ -77,14 +93,7 @@ body{
 	width: 40%;
 }
 
-.pirka h1{
-	color: #06c;
-	text-align: center;
-	font-size: 250%;
-	font-family: 'Comfortaa', sans-serif;
-	margin : 0% 0% 30% 30%;
-	width: 40%;
-}
+
 
 .main {
 	color: #ff8800;
@@ -93,19 +102,41 @@ body{
 }
 
 subtitle{
-	font-size: 150%; 
+	font-size: 170%; 
 	font-style:italic;
 	text-decoration: none;
 	color: #000000;
+	text-shadow: 10px 10px 10px #aa4400
+}
+
+header{
+	font-size: 150%;
+	color: #ffffff;
+	background-color: #750000;
+	text-decoration: none;
+	height: 280px;
+	width: 100%;
+}
+
+header a{
+	font-size: 150%;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+header a:hover {
+	color: #ff0000;
 }
 
 footer{
 	font-size: 80%; 
 	color: #ffffff;
-	background-color: #330000;
-
-	
+	background-color: #750000;
+	height: 100px;
+	width: 100%;
 }
+
 
 table th{
 
@@ -121,24 +152,7 @@ table td{
 	border: solid 2px brown;
 }
 
-.leftmenu {
-	background-color:#D8FF9D;
-	float: left;
-	clear: none;
-	width: 230px;
-	height: 1500px;
-	text-align: center;
-	font-size: 100%;
-	border-top-color: #666;
-	border-right-color: #666;
-	border-bottom-color: #666;
-	border-left-color: #666;
-	margin-top: 10px;
-	margin-right: 0px;
-	margin-bottom: 5px;
-	margin-left: 0px;
-	padding: 0px;
-	font-family: Verdana, "ü‡ÉSÉVÉbÉN", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-}
+
+.
 
 
