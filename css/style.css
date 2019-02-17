@@ -107,3 +107,17 @@ footer{
 	
 }
 
+table th{
+
+	padding: 10px;
+	border: solid 2px brown;
+}
+
+table td{
+
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	border: solid 2px brown;
+}
+
